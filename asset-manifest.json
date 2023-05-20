@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/travel-ui/static/css/main.caf10b62.css",
+    "main.js": "/travel-ui/static/js/main.6e3ee9e5.js",
+    "static/js/787.78ee8975.chunk.js": "/travel-ui/static/js/787.78ee8975.chunk.js",
+    "static/media/dia-diem-du-lich-can-tho-4.jpg": "/travel-ui/static/media/dia-diem-du-lich-can-tho-4.f21cc0f45b34beb1caee.jpg",
+    "static/media/chuaong.webp": "/travel-ui/static/media/chuaong.8dbff2be8a528c447010.webp",
+    "static/media/Chợ-đêm-Tây-Đô-chợ-Cổ-Cần-Thơ-ivivu.jpg": "/travel-ui/static/media/Chợ-đêm-Tây-Đô-chợ-Cổ-Cần-Thơ-ivivu.7928d0c5cf02fbcccbf7.jpg",
+    "static/media/dinhbinhthuy.jpg": "/travel-ui/static/media/dinhbinhthuy.6f5b22775b4c023a6bc8.jpg",
+    "static/media/tau.jpg": "/travel-ui/static/media/tau.f02f561245f157793a9d.jpg",
+    "static/media/14.png": "/travel-ui/static/media/14.0abf06693b0d3a4bc944.png",
+    "static/media/cantho-river-tour-co.jpg": "/travel-ui/static/media/cantho-river-tour-co.75a599ebbe5c4f7e9003.jpg",
+    "static/media/floatingmarket.webp": "/travel-ui/static/media/floatingmarket.9c384ad0375fd9ca8d58.webp",
+    "static/media/du-lich-can-tho-5.jpg": "/travel-ui/static/media/du-lich-can-tho-5.59ed922544dad2b45f62.jpg",
+    "static/media/nhaco.jpg": "/travel-ui/static/media/nhaco.82f6b6e5720950c24a1f.jpg",
+    "static/media/traicay.jpg": "/travel-ui/static/media/traicay.c246dda96ec581a04e83.jpg",
+    "static/media/lu.jpg": "/travel-ui/static/media/lu.db74afd78eac9a9ffd56.jpg",
+    "static/media/vuonman.webp": "/travel-ui/static/media/vuonman.fc2d4ee5c6967b5fce79.webp",
+    "static/media/banhxeo1.webp": "/travel-ui/static/media/banhxeo1.482c6316bdeda910234f.webp",
+    "static/media/colaido.jpg": "/travel-ui/static/media/colaido.5a15f3015596c3945a9e.jpg",
+    "static/media/conau.jpg": "/travel-ui/static/media/conau.6cd1eac1e0db9371b4e1.jpg",
+    "static/media/culao.jpeg": "/travel-ui/static/media/culao.bebb5d020e6daf7915d7.jpeg",
+    "static/media/cho-dem-tay-do-can-tho-1-700x465.jpg": "/travel-ui/static/media/cho-dem-tay-do-can-tho-1-700x465.18157b5d5625a23a9aa8.jpg",
+    "static/media/360_F_496233202_vVjZ7Ce9mjB1TPE3jayU8px0TxoRN5Tj.jpg": "/travel-ui/static/media/360_F_496233202_vVjZ7Ce9mjB1TPE3jayU8px0TxoRN5Tj.7ca7385b0f8d18f4b4c1.jpg",
+    "static/media/slick.svg": "/travel-ui/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/travel-ui/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/travel-ui/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/travel-ui/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/travel-ui/index.html",
+    "main.caf10b62.css.map": "/travel-ui/static/css/main.caf10b62.css.map",
+    "main.6e3ee9e5.js.map": "/travel-ui/static/js/main.6e3ee9e5.js.map",
+    "787.78ee8975.chunk.js.map": "/travel-ui/static/js/787.78ee8975.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caf10b62.css",
+    "static/js/main.6e3ee9e5.js"
+  ]
+}
