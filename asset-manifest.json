@@ -1,8 +1,19 @@
 {
   "files": {
-    "main.css": "/travel-ui/static/css/main.caf10b62.css",
-    "main.js": "/travel-ui/static/js/main.5612d9d3.js",
+    "main.css": "/travel-ui/static/css/main.03c125a4.css",
+    "main.js": "/travel-ui/static/js/main.702a7b9b.js",
     "static/js/787.78ee8975.chunk.js": "/travel-ui/static/js/787.78ee8975.chunk.js",
+    "static/media/nhacobinhthuysound.mp3": "/travel-ui/static/media/nhacobinhthuysound.4955e31eef527aea4534.mp3",
+    "static/media/sound1.mp3": "/travel-ui/static/media/sound1.a028960b23b888175364.mp3",
+    "static/media/conausound2.mp3": "/travel-ui/static/media/conausound2.f0b7213620ee70d8d166.mp3",
+    "static/media/conausound.mp3": "/travel-ui/static/media/conausound.2e3834d145371ecd2cd9.mp3",
+    "static/media/chuaongsound.mp3": "/travel-ui/static/media/chuaongsound.5bbeba369905bceda961.mp3",
+    "static/media/consonsound.mp3": "/travel-ui/static/media/consonsound.50e9e706e3b2ce700992.mp3",
+    "static/media/lohutieusound.mp3": "/travel-ui/static/media/lohutieusound.46482e16c5320c859c91.mp3",
+    "static/media/introsound.mp3": "/travel-ui/static/media/introsound.bd4b0a00250b36f981c4.mp3",
+    "static/media/benninhkieusound.mp3": "/travel-ui/static/media/benninhkieusound.11e884da340527d943e6.mp3",
+    "static/media/chonoi.mp3": "/travel-ui/static/media/chonoi.44aefed41c837c9aa7aa.mp3",
+    "static/media/conson.jpg": "/travel-ui/static/media/conson.1c290f3376832a392a14.jpg",
     "static/media/dia-diem-du-lich-can-tho-4.jpg": "/travel-ui/static/media/dia-diem-du-lich-can-tho-4.f21cc0f45b34beb1caee.jpg",
     "static/media/chuaong.webp": "/travel-ui/static/media/chuaong.8dbff2be8a528c447010.webp",
     "static/media/Chợ-đêm-Tây-Đô-chợ-Cổ-Cần-Thơ-ivivu.jpg": "/travel-ui/static/media/Chợ-đêm-Tây-Đô-chợ-Cổ-Cần-Thơ-ivivu.7928d0c5cf02fbcccbf7.jpg",
@@ -15,7 +26,6 @@
     "static/media/nhaco.jpg": "/travel-ui/static/media/nhaco.82f6b6e5720950c24a1f.jpg",
     "static/media/traicay.jpg": "/travel-ui/static/media/traicay.c246dda96ec581a04e83.jpg",
     "static/media/lu.jpg": "/travel-ui/static/media/lu.db74afd78eac9a9ffd56.jpg",
-    "static/media/vuonman.webp": "/travel-ui/static/media/vuonman.fc2d4ee5c6967b5fce79.webp",
     "static/media/banhxeo1.webp": "/travel-ui/static/media/banhxeo1.482c6316bdeda910234f.webp",
     "static/media/colaido.jpg": "/travel-ui/static/media/colaido.5a15f3015596c3945a9e.jpg",
     "static/media/conau.jpg": "/travel-ui/static/media/conau.6cd1eac1e0db9371b4e1.jpg",
@@ -27,12 +37,12 @@
     "static/media/slick.ttf": "/travel-ui/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/travel-ui/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/travel-ui/index.html",
-    "main.caf10b62.css.map": "/travel-ui/static/css/main.caf10b62.css.map",
-    "main.5612d9d3.js.map": "/travel-ui/static/js/main.5612d9d3.js.map",
+    "main.03c125a4.css.map": "/travel-ui/static/css/main.03c125a4.css.map",
+    "main.702a7b9b.js.map": "/travel-ui/static/js/main.702a7b9b.js.map",
     "787.78ee8975.chunk.js.map": "/travel-ui/static/js/787.78ee8975.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caf10b62.css",
-    "static/js/main.5612d9d3.js"
+    "static/css/main.03c125a4.css",
+    "static/js/main.702a7b9b.js"
   ]
 }
