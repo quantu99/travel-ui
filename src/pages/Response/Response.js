@@ -27,7 +27,7 @@ function Response({ messages, setMessages }) {
                     <FontAwesomeIcon className={cx('header-icon')} icon={faUsers} />
                 </div>
                 <div className={cx('container-wrapper')}>
-                    <Link to={'/'} className={cx('home')}>
+                    <Link to={'/travel-ui'} className={cx('home')}>
                         <FontAwesomeIcon className={cx('home-icon')} icon={faHouseChimney} />
                         <h1 className={cx('home-content')}>Back to home</h1>
                     </Link>

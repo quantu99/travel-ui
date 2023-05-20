@@ -14,7 +14,7 @@ function DetailPlace({ placeDatas }) {
             {place ? (
                 <div className={cx('wrapper')}>
                     <div className={cx('top')}>
-                        <Link to={'/'}>
+                        <Link to={'/travel-ui'}>
                             <FontAwesomeIcon className={cx('icon-first')} icon={faHouseChimney} />
                         </Link>
                         <img src={background} />
@@ -26,7 +26,7 @@ function DetailPlace({ placeDatas }) {
                     </div>
                     <div className={cx('container')}>
                         <div className={cx('navigate')}>
-                            <Link to={'/'}>
+                            <Link to={'/travel-ui'}>
                                 <h1 className={cx('home')}>Home</h1>
                             </Link>
                             <FontAwesomeIcon className={cx('icon')} icon={faChevronRight} />
