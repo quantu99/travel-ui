@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Fragment, useState } from 'react';
+import { publicRoutes } from '../src/routes';
+import data from './Data/Data';
 import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const { placeDatas } = data;
+    const [messages, setMessages] = useState([]);
+    return (
+        <Router>
+            <div className="App">
+                <Routes>
+                    {publicRoutes.map((route) => {
+                        const Layout = route.layout === null && Fragment;
+                        const Page = route.component;
+                        return (
+                            <Route
+                                path={route.path}
+                                element={
+                                    <Layout>
+                                        <Page placeDatas={placeDatas} messages={messages} setMessages={setMessages} />
+                                    </Layout>
+                                }
+                            />
+                        );
+                    })}
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

@@ -1,0 +1,123 @@
+.wrapper {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+.message {
+    width: 50%;
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    padding: 30px 10px;
+}
+.input {
+    border-radius: 4px;
+    font-size: 1.4rem;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    height: 60px;
+}
+.input + .input {
+    margin-top: 30px;
+}
+.btn {
+    background: linear-gradient(-180deg, #ff7e31, #e62c03);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 50px;
+    height: 60px;
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.success-btn {
+    background: linear-gradient(-180deg, #ffffff, #8d8c8c) !important;
+    color: #26282b;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.map {
+    position: relative;
+    width: 50%;
+    height: 480px;
+    background-color: blue;
+    margin-left: 10px;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    h1 {
+        display: none;
+    }
+    &:hover img {
+        transition: all 0.3s linear;
+        filter: brightness(0.7) blur(2px);
+    }
+    &:hover h1 {
+        display: block;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+        text-shadow: 0px 0px 2px #ff7e31;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// send message css
+.initial-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.child-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.error-message {
+    color: orangered;
+    padding: 10px 0px;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 300;
+}
+.success-wrapper {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-180deg, #ff7e31, #e62c03);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1 {
+        font-size: 1.8rem;
+        color: #eeeeee;
+        text-shadow: 0px 0px 4px rgb(0, 0, 88);
+    }
+}

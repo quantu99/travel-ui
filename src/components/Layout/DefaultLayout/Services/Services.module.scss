@@ -1,0 +1,136 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 760px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.4);
+    }
+}
+.content {
+    position: absolute;
+    display: flex;
+    padding: 60px 30px 30px;
+    top: 0;
+    left: 10px;
+}
+.content-left {
+    width: 30%;
+}
+.header {
+    color: #ffe46e;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.caption {
+    padding-top: 5px;
+    color: var(--gray-color);
+
+    text-align: justify;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.line-dec {
+    width: 45px;
+    height: 3px;
+    background-color: #ffe46e;
+    margin: 20px 0px 20px 0px;
+}
+.header-list {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #ffe46e;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.list {
+    list-style: none;
+}
+.list-item {
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    &:hover {
+        transition: all 0.3s linear;
+        text-shadow: 0px 0px 10px #fd0094;
+        font-weight: 500;
+    }
+}
+.list-item + .list-item {
+    margin-top: 10px;
+}
+
+.content-right {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.right-upper,
+.right-under {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.right-upper {
+}
+.right-under {
+    margin-top: 30px;
+}
+
+.right-item {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    padding: 50px;
+    &:hover {
+        transition: all 0.3s linear;
+        padding: 0px;
+    }
+    &:hover .item-inner {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &:hover .right-header {
+        color: white;
+        text-shadow: 0px 0px 10px #77325a;
+        font-size: 3.5rem;
+        animation: grow-up 1s linear;
+    }
+    img {
+        filter: brightness(1) !important;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+.right-item + .right-item {
+    margin-left: 30px;
+}
+.item-inner {
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.right-header {
+    text-align: center;
+    color: #ffe46e;
+}
+@keyframes grow-up {
+    0% {
+        transform: scale(0.5);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

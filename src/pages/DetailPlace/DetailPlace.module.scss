@@ -1,0 +1,96 @@
+.wrapper {
+    background: linear-gradient(-180deg, #ff7e31, #e62c03);
+    width: 100%;
+    height: 100%;
+}
+.top {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(2px) brightness(0.4);
+    }
+}
+.icon-first {
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    &:hover {
+        transition: all 0.3s linear;
+        color: #e62c03;
+    }
+}
+.top-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+}
+.line {
+    padding: 0px 10px 0px 5px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.cantho {
+    color: var(--white-color);
+    text-shadow: 0px 0px 10px #df3c9b;
+}
+.thecity {
+    color: var(--primary-color);
+    text-shadow: 0px 0px 10px #564164;
+}
+.navigate {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.home {
+    font-size: 1.5rem;
+    &:hover {
+        color: #eeeeee;
+        text-shadow: 0px 0px 4px rgb(163, 154, 154);
+    }
+}
+.icon {
+    padding: 0px 15px;
+    font-size: 1rem;
+}
+.navigate-place {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.container {
+    padding: 30px;
+    img {
+        padding: 10px 0px;
+    }
+}
+.header {
+    color: white;
+    text-shadow: 0px 0px 4px rgb(0, 46, 250);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.paragraph {
+    color: #eeeeee;
+    text-shadow: 0px 0px 4px black;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: justify;
+    line-height: 1.8;
+}
