@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import cantho from '../../../../image/cantho-river-tour-co.jpg';
+import introsound from '../../../../sound/introsound.mp3';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretLeft, faCaretRight, faCircle, faCircleDot, faCircleMinus } from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from 'react';
@@ -102,6 +103,7 @@ function Header() {
                 <h1>CAN THO</h1>
                 <p>TOUR- Back to the west</p>
                 <h3>The City of Rivers</h3>
+                <audio src={introsound} autoPlay></audio>
             </div>
             {listVisible ? (
                 <aside className={cx('sidebar')}>

@@ -35,6 +35,7 @@ function DetailPlace({ placeDatas }) {
                         <h1 className={cx('header')}>{place.name}</h1>
                         <img src={place.img} />
                         <p className={cx('paragraph')}>{place.description}</p>
+                        <audio src={place.sound} autoPlay={true}></audio>
                     </div>
                 </div>
             ) : (

@@ -1,5 +1,4 @@
 import dinh from '../image/dinhbinhthuy.jpg';
-import vuonman from '../image/vuonman.webp';
 import chonoi from '../image/floatingmarket.webp';
 import hutieu from '../image/dia-diem-du-lich-can-tho-4.jpg';
 import conau from '../image/conau.jpg';
@@ -7,27 +6,40 @@ import nhaco from '../image/nhaco.jpg';
 import benninhkieu from '../image/cho-dem-tay-do-can-tho-1-700x465.jpg';
 import chuaong from '../image/chuaong.webp';
 import chodem from '../image/Chợ-đêm-Tây-Đô-chợ-Cổ-Cần-Thơ-ivivu.jpg';
+import conson from '../image/conson.jpg';
+import sound1 from '../sound/sound1.mp3';
+import chonoisound from '../sound/chonoi.mp3';
+import chuaongsound from '../sound/chuaongsound.mp3';
+import consonsound from '../sound/consonsound.mp3';
+import benninhkieusound from '../sound/benninhkieusound.mp3';
+import lohutieusound from '../sound/lohutieusound.mp3';
+import nhacobinhthuysound from '../sound/nhacobinhthuysound.mp3';
+import conausound2 from '../sound/conausound2.mp3';
+import nightmarket from '../sound/conausound.mp3';
 const data = {
     placeDatas: [
         {
             id: 1,
             img: dinh,
+            sound: sound1,
             name: 'bình thủy temple',
             area: 'binh thuy province',
             description:
-                'Known in the past as Long Tuyen Communal House, is located in Binh Thuy Ward, Binh Thuy District, 5km from the center of Can Tho City. In 1852 , the communal house, which was built in 1844, was named Bon Canh Thanh Hoang by King Tu Duc. Then, the communal house has been rebuilt and was completely renovated in 1910. The architecture of Binh Thuy Communal House is different from the communal house in the North. The front and the back buildings are square and each side has columns are very wide, which make the buildings more stable. The roofs of the two front buildings were built overlapping each other. The main sanctum, at the rear, has three roofs. The top of the roof is covered with ornamentation of people, lions, and fish transforming into dragons. In the front of the building, there are cement columns. Insite the ancestor worshipping house, there are altars which are dedicated to Nghi Ha and Nghi Trung. In the square house, there are altars dedicated to Huong Chuc, Tien Giac and Hau Hien. The middle room dedicated to Hau Than is very close to the rear partition anh Huu Ban and Ta Ban altars are on either side. An opera house for performances of classical Vietnamese drama was built in front of the communal house. Later, the communal house was also dedicated to the spirits of the land, such as Dinh Cong Trang, Nguyen Trung Truc, Bui Huu Nghia and Vo Huy Tap. Annually, the temple has two main festivals: Thuong Dien and Ha Dien (sacrifice-dedicated ceremonies to the God of earth at the beginning of farm work) in the fourth month and the twelfth month in lunar year. This place was recognized as national architectural art relic in 1989.',
+                'Đình Bình Thủy là một công trình mang đậm nét tinh hoa văn hóa của sông nước miệt vườn Cần Thơ nói riêng và miền Tây Nam Bộ nói chung. Bất kỳ ai khi du lịch Cần Thơ đều muốn ghé thăm đình để chiêm ngưỡng kiến trúc nghệ thuật cổ cũng như tìm hiểu về lịch sử và quá trình hình thành của ngôi đình này. Di tích lịch sử Cần Thơ này được dựng vào năm 1844 tại làng Bình Hưng, tổng Định Thới, huyện Vĩnh Định, phủ Ba Xuyên (nay là phường Bình Thủy – quận Bình Thủy – thành phố Cần Thơ). Năm 1852, trong một lần đi tuần trên thuyền, quan khâm sai Huỳnh Mẫn Đạt bất ngờ gặp phải trận cuồng phong, nhưng nhờ ẩn nấp kịp ở Bình Hưng nên bình an vô sự. Sau khi thoát nạn, ông cho tổ chức tiệc mừng và đổi lại tên đất này thành "Bình Thủy", mang nghĩa "bình ổn dòng nước". Từ đó ngôi đình cũng được người dân gọi là đình Bình Thủy. Năm 1853, người dân trong làng đã cùng nhau quyên góp để tu sửa lại đình khang trang hơn, với tường gạch, mái ngói đỏ au, gỗ tốt vững chãi, cũng như dựng thêm nhà võ ca để phục vụ cho những dịp lễ hội lớn. 51 năm sau, đầu năm 1904, thấy tình trạng đình có dấu hiệu xuống cấp, quan tri phủ Nguyễn Đức Nhuận đã cho xây dựng lại. Tuy nhiên, công trình chưa hoàn thành, quan tri phủ đã không may qua đời nên việc tu sửa phải tạm ngưng. Mãi đến năm 1909, việc xây cất đình mới tiếp tục được diễn ra và chính thức hoàn thành vào năm 1910.Cũng trong khoảng thời gian này, làng Bình Thủy được đổi tên thành “Long Tuyền” - con rồng nằm. Do vậy, ngôi đình cũng gọi với cái tên khác là Long Tuyền Cổ Miếu hay đình Long Tuyền. Tham quan đình thần Bình Thủy là lựa chọn lý tưởng trong chuyến du lịch Cần Thơ 1 ngày. Vẻ đẹp kiến trúc mang đậm nét đặc trưng của miền Tây Nam Bộ sẽ được khắc họa rõ nét nhất khi bạn tới tham quan đình Bình Thủy. Nếu bạn là người “sành sỏi” về kiến trúc đền chùa thì chắc chắn sẽ thấy sự khác biệt của đình Bình Thủy so với các đình miền Bắc. Công trình là sự giao thoa giữa những giá trị kiến trúc nghệ thuật cổ truyền của dân tộc trong giai đoạn khai hoang miền đất phương Nam, kết hợp với văn hóa Trung Hoa. Với diện tích lên tới 4000m2, đình được thiết kế có chủ đích, không rập khuôn nên tạo sự mới mẻ cho du khách tham quan.',
         },
         {
             id: 2,
-            img: vuonman,
-            name: 'rose apple relic site',
+            img: conson,
+            sound: consonsound,
+            name: 'Sơn Island',
             area: 'binh thuy province',
             description:
-                'Khu di tích Vườn Mận được biết đến là nơi lưu giữ rất nhiều chứng tích lịch sử của dân tộc trong cuộc kháng chiến chống Mỹ. Nếu một lần du lịch Cần Thơ, đừng quên ghé thăm khu di tích Vườn Mận để từ đó bồi đắp thêm tình yêu dành cho quê hương, đất nước. Trong cuộc kháng chiến gian khổ, sau khi Đội Biệt Động được thành lập vào năm 1965, đơn vị đã chọn khu vườn của ông Lê Văn Tiểu để xây dựng căn cứ hoạt động trong lòng địch. Cái tên của địa danh này được đặt là vì thời gian đó, khu vườn nhà ông Hai Tiểu trồng rất nhiều mận. Vốn nằm trong vòng vây đồn bốt của địch, vậy nên, nơi đây còn có tên gọi khác là “Căn cứ lõm Vườn Mận”. Càng tìm hiểu về lịch sử của căn cứ địa Vườn Mận, ta lại càng khâm phục tài trí và lòng dũng cảm của ông cha ta. Khu di tích Vườn Mận nằm ở vị trí vô cùng đặc biệt khi có 9 đồn địch nằm bao quanh. Điều bất ngờ hơn đó là nơi đây còn được chọn làm Căn cứ Ban Chỉ huy Tổng tấn công và nổi dậy Xuân Mậu Thân năm 1968 tại Cần Thơ. Cũng giống như Bảo tàng Cần Thơ, địa danh này là nơi ghi dấu nhiều chứng tích lịch sử đáng tự hào của quân và dân ta. Trung tâm khu di tích Vườn Mận Cần Thơ là một ngôi nhà lá ba gian. Ngôi nhà đó đã được ông Hai Tiểu hiến tặng cho Ban Chỉ huy để sử dụng trong cuộc kháng chiến gian khổ. Trong vườn có rất nhiều hầm bí mật cá nhân và các công sự chiến đấu chạy dọc bìa vườn. Tưởng chừng chỉ như những khu vườn bình thường khác ở miền sông nước Cần Thơ, nhưng Vườn Mận như một “pháo đài chiến lược" phục vụ cho hoạt động cách mạng của Ban Chỉ huy.  ',
+                'Với đất đai khá màu mỡ, khí hậu mát mẻ nên các vườn cây trái ở khu du lịch Cồn Sơn Cần Thơ đều tươi tốt quanh năm, các loại cây phổ biến như chôm chôm, bưởi, vú sữa, mít,…Bạn sẽ tự tay hái và ăn ngay tại vườn, cảm nhận được đầy đủ hương vị thơm ngon, tươi mát. Mọi người ở trên cồn hầu hết đều làm nghề vườn, kết hợp với làm du lịch trong khoảng vài năm trở lại đây. Phí vào tham quan các vườn trái cây thì khá rẻ chỉ từ 15.000 đồng/người. Du khách đến đây có thể mua trái cây trực tiếp tại vườn để làm quà cho người thân. Du khách đến Cồn Sơn sẽ được trải nghiệm và hòa mình vào cuộc sống sinh hoạt đời thường của người dân tại đây. Với những ai đã quen với cuộc sống ở thành phố thì chắc hẳn sẽ rất tò mò và thích thú với các hoạt động ở đây. Cồn Sơn được bao bọc xung quanh bởi vườn tược và cây cối. Nếu bạn muốn tham quan vườn trái cây hay muốn tìm hiểu, tự tay làm các món bánh nổi tiếng của người dân miền Tây như: bánh khọt, bánh kẹp nướng, bánh in,…thì có thể hỏi người dân để các nhà vườn có thể sắp xếp, chuẩn bị và hướng dẫn cho bạn. "Cá lóc bay" cũng là một điểm đáng tham quan tại Cồn Sơn. Với sự khéo léo và kinh nghiệm của mình, một số người dân trên cồn đã biết cách huấn luyện bầy cá lóc "bay" rất điệu nghệ, đẹp mắt mỗi khi cá được cho ăn. Cặp Cồn Sơn, cách trung tâm hành chánh quận Bình Thủy, TP Cần Thơ một chuyến đò ngang chừng 500m là nhà lồng bè nuôi cá của ông Lý Văn Bon (Bảy Bon). Trên 30 bè cá lớn nhỏ (khoảng 5.000m2) kết thành một dãy dài chừng non cây số, hiên ngang trước sóng nước Cửu Long. Ở đây đang nuôi nhiều loại cá nhưng chủ lực vẫn là thác lác cườm - một đặc sản của miền Tây Nam bộ. Cồn Sơn Cần Thơ – điểm tham quan độc đáo, với nét đẹp hoang sơ, tự nhiên đem đến những phút giây nghỉ dưỡng tuyệt vời cho bạn. Nếu có dịp đến di lịch Cần Thơ thì đừng quên ghé qua khu du lịch Cồn Sơn đầy điều thú vị, bất ngờ đang chờ bạn đến khám phá.',
         },
         {
             id: 3,
             img: chonoi,
+            sound: chonoisound,
             name: 'cái răng floating market',
             area: 'cai rang province',
             description:
@@ -36,6 +48,7 @@ const data = {
         {
             id: 4,
             img: hutieu,
+            sound: lohutieusound,
             name: 'rice noodle kiln',
             area: 'cai rang province',
             description:
@@ -44,6 +57,7 @@ const data = {
         {
             id: 5,
             img: conau,
+            sound: conausound2,
             name: 'ấu island',
             area: 'cai rang province',
             description:
@@ -53,6 +67,7 @@ const data = {
         {
             id: 6,
             img: chodem,
+            sound: nightmarket,
             name: 'Ninh Kiều night market',
             area: 'ninh kieu province',
             description:
@@ -61,6 +76,7 @@ const data = {
         {
             id: 7,
             img: benninhkieu,
+            sound: benninhkieusound,
             name: 'ninh kiều wharf',
             area: 'ninh kieu province',
             description:
@@ -69,6 +85,7 @@ const data = {
         {
             id: 8,
             img: chuaong,
+            sound: chuaongsound,
             name: 'grand padoda',
             area: 'ninh kieu province',
             description:
@@ -77,6 +94,7 @@ const data = {
         {
             id: 9,
             img: nhaco,
+            sound: nhacobinhthuysound,
             name: 'bình thủy ancient house',
             area: 'binh thuy province',
             description:
